@@ -143,3 +143,40 @@ footer a {
     margin-bottom: 2rem;
     font-size: 3.3rem;  
 }
+
+
+/* ----------------- Form ----------------*/
+
+form input, form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 2px solid lightgray;
+    outline: none;
+    font-family: inherit;
+    font-size: 0.9rem;
+  }
+  
+  form input:focus, form textarea:focus{
+    border-color: green;
+  }
+  
+  textarea {
+    min-height: 5rem;
+  }
+  
+  form label {
+    margin-top: 1rem;
+    display: block;
+    color: navy;
+    font-weight: bold;
+  }
+  
+  form button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    margin: 0.5rem 0;
+    letter-spacing: 0.2rem
+  }
