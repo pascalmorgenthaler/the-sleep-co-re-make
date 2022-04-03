@@ -1,6 +1,6 @@
 /*  colors:
-    yellow: #ffbe00
-    navy #192b37 */
+    orange: #ca6702
+    teal #0a9396 */
 *{
     padding: 0;
     margin: 0;
@@ -24,14 +24,16 @@
 /* --------------------------- universal styles and utility classes ------------------------ */
 
 body { 
-    font-family: 'Catamaran', sans-serif;
-    color: #192b37;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0a9396;
 }
 
 .padded {padding: 5%;}
 .padded-sm {padding: 1rem;}
 .padded-lg {padding: 10%}
 
+
+.margin-top-7 {margin-top: 7rem;}
 
 .bg-dark {
     background-color: #192b37;
@@ -46,13 +48,13 @@ body {
 .tall-90 { min-height: 90vh;}
 .tall-100 { min-height: 100vh;}
 
-/* Typography Styles */
+/* ----------- Typography Styles ----------------*/
 
 .text-left      { text-align: left; }
 .text-right     { text-align: right; }
 .text-center    { text-align: center; }
 
-.featured-text {color: #ffbe00;}
+.featured-text {color: #ca6702;}
 .white-text {color: #ffffff}
 
 .small-text {font-size: 1.5rem;}
@@ -71,8 +73,8 @@ body {
 }
 
 .font-weight-normal {font-weight: normal;}
-.font-weight-light {font-weight: 200;}
-.font-weight-extrabold {font-weight: 800;}
+.font-weight-light {font-weight: 300;}
+.font-weight-extrabold {font-weight: 700;}
 
 h2 {
     font-size: 2.5rem;
@@ -102,14 +104,14 @@ a {
 }
 
 a:hover{
-    color: #ffbe00;
+    color: #ca6702;
     transition: 0.3s;
 }
 
 /* -------------- Header & Footer Styles ----------------- */
 
 header {
-    background-image: url('/images/the-sleep-co-4.jpg');
+    background-image: url('/images/Paul\ McDonald-PNG5.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -121,14 +123,18 @@ header h3 {
 
 footer a {
     border: none;
+
 }
+
 
 /* background images */
 
-.bg-bed { background-image: url('/images/the-sleep-co-3.jpg')}
-.bg-pug { 
-    background-image: url('/images/the-sleep-co-1.jpg');
-    background-position: 50% 29%;
+.bg-tele-up { 
+    background-image: url('/images/Paul\ McDonald-PNG2.jpg');
+    background-position: 50% 50%;}
+.bg-tele-cliff { 
+    background-image: url('/images/Paul\ McDonald-PNG4.jpg');
+    background-position: 50% 50%;
 }
 .bg-pillow { 
     background-image: url('/images/the-sleep-co-2.jpg');
@@ -168,7 +174,7 @@ form input, form textarea {
   form label {
     margin-top: 1rem;
     display: block;
-    color: navy;
+    color: #0a9396;
     font-weight: bold;
   }
   
@@ -180,3 +186,4 @@ form input, form textarea {
     margin: 0.5rem 0;
     letter-spacing: 0.2rem
   }
+
