@@ -29,15 +29,27 @@ body {
 
 .padded {padding: 5%;}
 .padded-sm {padding: 1rem;}
+.padded-md {padding: 5rem;}
 .padded-lg {padding: 10%}
+.padded-bottom {padding-bottom: 0.4rem;}
 
 
 .margin-top-7 {margin-top: 7rem;}
+.margin-bottom {margin-bottom: 3rem;}
+.margin-top {margin-top: 3rem;}
+.margin-top-4 {margin-top: 4rem;}
+.margin-bottom-0 {margin-bottom: 0;}
 
 .bg-dark {
-    background-color: #192b37;
+    background-color: #0a9396;
     color: white;
 }
+
+.bg-orange {
+    background-color: #ca6702;
+    color: white;
+}
+
 
 
 .tall-50 { min-height: 50vh;}
@@ -49,8 +61,14 @@ body {
 
 /* ----------- Typography Styles ----------------*/
 
+
+.uppercase {text-transform: uppercase;}
 .big-font {
     font-size: 4.5rem;
+}
+
+.md-font {
+    font-size: 3rem;
 }
 
 .text-left      { text-align: left; }
@@ -60,10 +78,22 @@ body {
 .featured-text {
     color: #ca6702;
 }
+
+.featured-text-teal {
+    color: #0a9396;;
+}
 .underline {
     border-bottom: 2px solid white;
 }
+.underline-o {
+    border-bottom: 1.7px solid #0a9396;
+}
+
 .white-text {color: #ffffff}
+
+.display-block {
+    display: block;
+}
 
 .small-text {font-size: 1.5rem;}
 .medium-text {font-size: 2rem;}
@@ -160,6 +190,11 @@ footer a {
     background-position: 50% 57%;
 }
 
+.bg-strat-white {
+    background-image: url('/images/Paul\ McDonald-PNG3.jpg');
+    background-position: 50% 100%;
+}
+
 /* Icon Grid */
 
 .fa-solid {
@@ -169,6 +204,23 @@ footer a {
     font-size: 3.3rem;  
 }
 
+/*-------------- Offerings ------------ */
+
+.border {
+    border: 5px solid #ca6702;
+}
+
+.border-right {
+    border-right: 3px solid #0a9396;
+}
+
+.border-top {
+    border-top: 6px solid #0a9396;
+}
+
+.border-left {
+    border-left: 3px solid #0a9396;
+}
 
 /* ----------------- Form ----------------*/
 
@@ -204,4 +256,8 @@ form input, form textarea {
     padding: 0.5rem 2rem;
     margin: 0.5rem 0;
     letter-spacing: 0.2rem
+  }
+
+  li{
+      margin-bottom: 1.3rem;
   }
