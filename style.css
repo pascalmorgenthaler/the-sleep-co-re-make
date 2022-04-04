@@ -17,7 +17,6 @@
 /* Image Styles */
 
 .bg-image{
-    background-image: url(/images/the-sleep-co-1.jpg);
     background-size: cover;
 }
 
@@ -148,7 +147,14 @@ footer a {
 .bg-tele-cliff { 
     background-image: url('/images/Paul\ McDonald-PNG4.jpg');
     background-position: 50% 100%;
+
 }
+
+.bg-tele-quote {
+    background-image: url('/images/Paul-McDonald-PNG6.jpg');
+}
+
+
 .bg-pillow { 
     background-image: url('/images/the-sleep-co-2.jpg');
     background-position: 50% 57%;
