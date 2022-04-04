@@ -50,11 +50,20 @@ body {
 
 /* ----------- Typography Styles ----------------*/
 
+.big-font {
+    font-size: 4.5rem;
+}
+
 .text-left      { text-align: left; }
 .text-right     { text-align: right; }
 .text-center    { text-align: center; }
 
-.featured-text {color: #ca6702;}
+.featured-text {
+    color: #ca6702;
+}
+.underline {
+    border-bottom: 2px solid white;
+}
 .white-text {color: #ffffff}
 
 .small-text {font-size: 1.5rem;}
@@ -76,10 +85,14 @@ body {
 .font-weight-light {font-weight: 300;}
 .font-weight-extrabold {font-weight: 700;}
 
+.i-b {
+    display: inline-block;
+}
+
 h2 {
     font-size: 2.5rem;
     line-height: 1.1;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
 }
 
 h3 {
@@ -134,7 +147,7 @@ footer a {
     background-position: 50% 50%;}
 .bg-tele-cliff { 
     background-image: url('/images/Paul\ McDonald-PNG4.jpg');
-    background-position: 50% 50%;
+    background-position: 50% 100%;
 }
 .bg-pillow { 
     background-image: url('/images/the-sleep-co-2.jpg');
@@ -186,6 +199,3 @@ form input, form textarea {
     margin: 0.5rem 0;
     letter-spacing: 0.2rem
   }
-
-
-  yolo
