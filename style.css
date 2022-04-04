@@ -185,9 +185,10 @@ footer a {
 }
 
 
-.bg-pillow { 
-    background-image: url('/images/the-sleep-co-2.jpg');
-    background-position: 50% 57%;
+.bg-banner { 
+    background-image: url('/images/Paul-McDonald-8.jpg');
+    background-position: 50% 50%;
+    margin: 5%;
 }
 
 .bg-strat-white {
@@ -198,10 +199,11 @@ footer a {
 /* Icon Grid */
 
 .fa-solid {
-    display: block;
+    display: inline-block;
     text-align: center;
     margin-bottom: 2rem;
-    font-size: 3.3rem;  
+    font-size: 3.3rem;
+    color: white;  
 }
 
 /*-------------- Offerings ------------ */
@@ -260,4 +262,5 @@ form input, form textarea {
 
   li{
       margin-bottom: 1.4rem;
+      line-height: 1.2;
   }
